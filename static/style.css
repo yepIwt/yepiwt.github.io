@@ -1,0 +1,253 @@
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #24292e;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word
+}
+
+.markdown-body a {
+  background-color: transparent
+}
+
+.markdown-body a:active, .markdown-body a:hover {
+  outline-width: 0
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: .67em 0
+}
+
+.markdown-body * {
+  box-sizing: border-box
+}
+
+.markdown-body input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit
+}
+
+.markdown-body a {
+  color: #0366d6;
+  text-decoration: none
+}
+
+.markdown-body a:hover {
+  text-decoration: underline
+}
+
+.markdown-body h1, .markdown-body h2 {
+  margin-bottom: 0;
+  margin-top: 0
+}
+
+.markdown-body h1 {
+  font-size: 32px
+}
+
+.markdown-body h1, .markdown-body h2 {
+  font-weight: 600
+}
+
+.markdown-body h2 {
+  font-size: 24px
+}
+
+.markdown-body p {
+  margin-bottom: 10px;
+  margin-top: 0
+}
+
+.markdown-body ol, .markdown-body ul {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0
+}
+
+.markdown-body:before {
+  content: "";
+  display: table
+}
+
+.markdown-body:after {
+  clear: both;
+  content: "";
+  display: table
+}
+
+.markdown-body > :first-child {
+  margin-top: 0 !important
+}
+
+.markdown-body > :last-child {
+  margin-bottom: 0 !important
+}
+
+.markdown-body blockquote, .markdown-body dl, .markdown-body ol, .markdown-body p, .markdown-body pre, .markdown-body table, .markdown-body ul {
+  margin-bottom: 16px;
+  margin-top: 0
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 16px;
+  margin-top: 24px
+}
+
+.markdown-body h1 {
+  font-size: 2em
+}
+
+.markdown-body h1, .markdown-body h2 {
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: .3em
+}
+
+.markdown-body h2 {
+  font-size: 1.5em
+}
+
+.markdown-body ol, .markdown-body ul {
+  padding-left: 2em
+}
+
+.markdown-body ol ol, .markdown-body ol ul, .markdown-body ul ol, .markdown-body ul ul {
+  margin-bottom: 0;
+  margin-top: 0
+}
+
+.markdown-body li {
+  word-wrap: break-all
+}
+
+.markdown-body li > p {
+  margin-top: 16px
+}
+
+.markdown-body li + li {
+  margin-top: .25em
+}
+
+.markdown-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 45px 0
+}
+
+.emoji {
+  height: 1em;
+  min-width: 1em;
+  margin: -.4em .1em -.1em 0;
+  vertical-align: middle;
+  display: inline-block;
+  background-size: 1em
+}
+
+.emoji label {
+  font-size: 0
+}
+
+.avatar {
+  border-radius: 1em;
+  background-image: url("./sergievsky-small.jpg")
+}
+
+.avatar-link {
+  font-size: 2em; float: left;
+  margin: -.1em 6px 0 0;
+}
+
+
+
+.inline-list {
+  width: 100%;
+  overflow: auto;
+}
+.inline-list ul {
+  list-style-type: none;
+  position: relative;
+  display: block;
+  padding: 0;
+  overflow: auto;
+  width: auto;
+  margin: auto;
+}
+.inline-list li {
+  border-radius: 3px;
+  margin: 1px;
+  border: 1px solid #ebecef;
+  padding: 6px 8px;
+  line-height: 1em;
+  display: inline-block;
+  width: 210px;
+}
+.inline-list ul li div {
+  display: block;
+  overflow: hidden;
+}
+.inline-list ul li img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  float: left;
+  margin-right: 8px;
+}
+.inline-list ul li a,
+.inline-list ul li p {
+  display: block;
+  font-size: 12px;
+  padding-top: 4px;
+  margin: 0;
+}
+.inline-list ul li p {
+  color: #616161;
+  padding-top: 0;
+}
+
+@media (max-width: 767px) {
+  .markdown-body {
+    font-size: 18px;
+    padding: 12px
+  }
+
+  .inline-list li {
+    width: auto;
+  }
+  .inline-list ul {
+    white-space: nowrap;
+    max-width: unset;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body, .markdown-body {
+    background: rgb(255, 254, 254);
+    color: rgb(0, 0, 0)
+  }
+
+  .markdown-body h1, .markdown-body h2 {
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid #333
+  }
+
+  .markdown-body a {
+    color: inherit;
+    text-decoration: underline
+  }
+
+  .inline-list ul li {
+    border: 1px solid #333;
+  }
+
+  .inline-list ul li p {
+    color: #ccc;
+  }
+}
